@@ -1,0 +1,51 @@
+wlanalyzer
+
+wlanalyzer (also called SDR-Analyzer) is a tool for analyzing workload 
+of web servers from access logs.
+
+The library contains functions for parsing log files and reporting URL:s 
+found or access over time over all or per URL.
+
+See wlanalyzer -h for more information on running wlanalyzer.
+
+The SRD-Analyzer depends on having the following modules available:
+
+Time::gmtime
+PerlIO::gzip
+Date::Manip
+
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command and by running wlanalyzer -h.
+
+    perldoc SDR::Analyzer
+
+You can also look for information at:
+
+    System Data Recorder (SDR) web site: http://www.systemdatarecorder.org
+    SDR Bugzilla at  http://www.systemdatarecorder.org:9009/
+
+
+
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2008 - 2013 Anders Aspnas, aaspnas(a)gmail.com
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
